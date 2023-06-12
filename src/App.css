@@ -51,16 +51,12 @@ nav ul {
 
 nav li {
   margin: 0 10px;
+  color:rgb(0, 0, 0);
+  font-size: 200%;
+  font-weight: bold;
 }
 
-nav a {
-  text-decoration: none;
-  padding: 5px 10px;
-  color:black;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
+
 
 nav a:hover {
   background-color: #9f9494;

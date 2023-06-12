@@ -10,12 +10,8 @@ const App = () => {
       <header>
         <nav>
           <ul>
-            <li onClick={handleVisualizarTudo}>Visualizar Tudo</li>
-            <li onClick={handleNovaEmpresa}>Nova Empresa</li>
-            <li onClick={handleConsultarEmpresa}>Consultar Empresa</li>
-            <li onClick={handleDeletarAreas}>Deletar Áreas</li>
-            <li onClick={handleIncluirAreas}>Incluir Áreas</li>
-            <li onClick={handleSair}>Sair</li>
+            <li onClick={handleVisualizarTudo}>VISUALIZANDO INFORMAÇÕES SOBRE AS EMPRESAS</li>
+            
 
           </ul>
         </nav>

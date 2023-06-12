@@ -4,10 +4,10 @@ const TabelaEmpresas = () => {
   const [dados, setDados] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/listEmpresas')
+    fetch('http://localhost:8080/api/listEmpresas')
       .then(response => response.json())
       .then(empresas => {
-        fetch('http://localhost:3000/api/listAreas')
+        fetch('http://localhost:8080/api/listAreas')
           .then(response => response.json())
           .then(areas => {
             const dadosFormatados = formatarDados(empresas, areas);
