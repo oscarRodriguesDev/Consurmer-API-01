@@ -4,6 +4,7 @@ const TabelaEmpresas = () => {
   const [dados, setDados] = useState([]);
 
   useEffect(() => {
+    document.title = 'Empresas e áreas';
     fetch('http://localhost:8080/api/listEmpresas')
       .then(response => response.json())
       .then(empresas => {
